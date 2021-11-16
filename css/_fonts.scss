@@ -1,0 +1,64 @@
+// ===Подключаем шрифты====================================================================================================================================================
+/* &display=swap&subset=cyrillic-ext */
+
+// @import url("https://fonts.googleapis.com/css?family=Roboto:300&display=swap&subset");
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue.woff2") format("woff2"), url("../fonts/HelveticaNeue.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-CondensedBold.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-CondensedBold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-CondensedBlack.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-CondensedBlack.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "icomoon";
+	src: url("../fonts/icomoon.eot?3r9ouj");
+	src: url("../fonts/icomoon.eot?3r9ouj#iefix") format("embedded-opentype"),
+		url("../fonts/icomoon.ttf?3r9ouj") format("truetype"), url("../fonts/icomoon.woff?3r9ouj") format("woff"),
+		url("../fonts/icomoon.svg?3r9ouj#icomoon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "icomoon" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-comments:before {
+	content: "\e900";
+}
+.icon-view-eye:before {
+	content: "\e901";
+}
